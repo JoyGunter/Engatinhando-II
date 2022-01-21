@@ -38,11 +38,11 @@
 //
 //     const jsonData = JSON.stringify(data);
 //
-//     const url = "https://us20.api.mailshimp.com/3.0/lists/d5c86223e2";
+//     const url = "https://us20.api.mailshimp.com/3.0/lists/#####223e2";
 //
 //     const options = {
 //       method: "POST",
-//       auth: "joyn7:7e9f2afd4a976b54c203207f47dfba74-us20"
+//       auth: "joyn7:########4a976b54c203207f47dfba74-us20"
 //     }
 //
 //     const request = https.request(url, options, function(response){
@@ -61,10 +61,10 @@
 //
 //
 //   // API
-//   // 7e9f2afd4a976b54c203207f47dfba74-us20
+//   // #######4a976b54c203207f47dfba74-us20
 //
 //   //ID
-//   // d5c86223e2
+//   // #####223e2
 
 
 
@@ -103,7 +103,7 @@ app.get("/", function (req, res) {
 //Setting up MailChimp
 mailchimp.setConfig({
 //*****************************ENTER YOUR API KEY HERE******************************
- apiKey: "7e9f2afd4a976b54c203207f47dfba74-us20",
+ apiKey: "#######d4a976b54c203207f47dfba74-us20",
 //*****************************ENTER YOUR API KEY PREFIX HERE i.e.THE SERVER******************************
  server: "us20"
 });
@@ -114,7 +114,7 @@ const firstName = req.body.firstName;
 const secondName = req.body.secondName;
 const email = req.body.email;
 //*****************************ENTER YOU LIST ID HERE******************************
-const listId = "d5c86223e2";
+const listId = "#####223e2";
 //Creating an object with the users data
 const subscribingUser = {
  firstName: firstName,
