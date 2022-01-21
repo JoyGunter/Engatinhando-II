@@ -1,5 +1,5 @@
 // //jshint esversion: 6
-//
+//  TENTATIVA: este código foi apresentado em aula e não funcionou, abaixo correções (aula: udemy, prof.: Angela Yu)
 // const bodyParser = require("body-parser");
 // const express = require("express");
 // const request = require("request");
@@ -76,7 +76,7 @@
 
 
 
-
+// este código foi apresentado por dos alunos da aula aprendi boa parte mas não tudo.
 
 //Requiring mailchimp's module
 //For this we need to install the npm module @mailchimp/mailchimp_marketing. To do that we write:
